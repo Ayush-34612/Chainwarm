@@ -1,0 +1,49 @@
+# ---- Large dataset (GitHub rejects files over 100 MB) ----
+# invocations_per_function_md.anon.d01.csv is ~139 MB
+data/*.csv
+data/*.csv.gz
+data/*.tar.xz
+data/*.tar.gz
+data/*.zip
+!data/README.md
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+build/
+dist/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+.env
+
+# ---- Test and tool caches ----
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+
+# ---- IDE and OS files ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- LaTeX build files ----
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.toc
+*.synctex.gz
+
+# ---- Temporary files ----
+*.tmp
+*.bak
+~$*
